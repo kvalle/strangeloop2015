@@ -1,0 +1,41 @@
+ideology
+
+things people believe, but do not realize they believe
+
+Rumsfeld
+
+	Ideology: unknown knowns
+
+Ting vi "vet", men helt vet hvorfor/hvordan vi vet.
+
+Eks:
+	Imposter symdrome
+	types vs test
+
+		tests er bare eksempler, and do not establish categories of behaviour
+		typer er heller ikke vannette. De er *bare* kategorier, og begrenses av typesystemet.
+		typer som er "riktige", men ikke har gyldige verdier må fortsatt testes mot.
+
+Som forventet, morsomt.
+
+Enklere
+	Beliefs som bygger på en idé eller antagelese som, når konfrontert, er enkel å bli kvitt
+
+		only null can represent absence
+		no fasger immutable types exist
+
+Vanskeligere
+
+	beliefs som, selv når du innser at du har dem, er vanskelige å bli kvitt
+
+		correctnes comes exclisively from categories
+		----                      	 	  examples	
+		i am not a real programmer
+
+Ideologier er ikke nødvendig dårlige, men kan være vanskelige å bli kvitt.
+
+Eksempel på en god en: "hurting people is bad"
+
+Les: Pervert's guide to ideology
+
+Dan Grossman CSE431

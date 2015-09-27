@@ -1,0 +1,58 @@
+elm in production
+
+BAKGRUNN
+
+	no red inc - lager writing software and such
+	kommer fra en ruby on rails shop
+
+	hvorfor kan ikke javascript være mer som ruby?
+
+	on the server, any language
+	on the browser, any javascript
+
+	bruker/brukte coffeescript, react + flux i frontend
+
+	eks: 
+		active voice vs passive voice
+		lære unger forskjellen
+
+		drag-n-drop med ord/fraser
+
+		måtte iterere gjennom mange design
+		store omskrivinger fører til at testene brekker
+		> my tests thorougly cover the design that no longer exists
+
+		hva om vi kunne gjøre iterering billig?
+
+
+ELM
+
+	virtual dom (ala react), kjemperskt
+	time-traveling debugger
+	semantic versioning guaranteed for every single package (no exceptions)
+
+	kule features, men det er de små tinene i språket til daglig som gjør det til en fornøyelse å jobbe med
+
+		hjelsom compiler / typer
+
+	blogpost: Building a live-validated signup form in elm, a complete tutorial
+
+	alt er immutable-data eller statless functions
+
+	
+	ports 
+		- snakk med javascript ved å sende data frem og tilbake (not sharing code)
+		- brukt for å snakke med gammel kode, de delene de ikke ønsket å skrive om
+
+	fordeler, etter å ha gått over til Elm:
+		- fewer bugs
+		- improved team spirit
+		- incradse in job applicants
+		- surprisingly low learning curve
+
+
+oppsummert
+	litt mer intro til språket enn jeg hadde håpet
+	lite detaljer rundt nøyaktig hva de har gjort
+	for lite av nøyaktig hva de har laget
+	har bare holdt i noen måneder
