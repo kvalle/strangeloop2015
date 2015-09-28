@@ -22,36 +22,45 @@ Fremtiden til programmerere er i hovedsak knyttet til hvilke verktøy og språk 
 
 ### Predictive programming
 
-Vi startet dagen med to karer fra *Probabilistic Computing Project* ved MIT som fortalte om sannsynligheter og usikkerhet. For de fleste av oss er dette kanskje noe vi forbinder med statistikkfaget fra universitetet, men knapt verktøy vi bruker aktivt i hverdagen. Hva skal til for å endre på det, og hva kan det gi oss?
+Vi startet dagen med to karer fra *Probabilistic Computing Project* ved MIT, [TODO navn her],  som fortalte om sannsynligheter og usikkerhet. For de fleste av oss er dette kanskje noe vi forbinder med statistikkfaget fra universitetet, men knapt verktøy vi bruker aktivt i hverdagen. Hva skal til for å endre på det, og hva kan det gi oss?
 
 *Probabilistic programming* er feltet som befinner seg i kryssingspunktet mellom statistikk og computer science. Der CS tradisjonelt resonerer og løser problemer med basis i logikk, så er verktøykassa her utvidet med sannsynlighetsmodeller og statistiske metoder.
 
-Hvorfor er dette så viktig? Selv om data er kjærnen i mange av systemene vi lager, så kan det være vanskelig å forstå og trekke  logiske slutninger basert på datasett.
+Hvorfor er dette så viktig? Selv om data er kjærnen i mange av systemene vi lager, så kan de være vanskelig å forstå, og det trekke  logiske slutninger basert på datasett er en stor utfordring.
 
-> "Everybody is excited about big data, but it's hard to understand what data actually means".
+> "Everybody is excited about big data, but it's hard to understand what data actually means."
 
-Vi startet dagen med å se på et produkt som forsøker å gjøre noe med dette. 
-[BayesDB](http://probcomp.csail.mit.edu/bayesdb/) er en database som lar oss stille spørsmål om sannsynlige implikasjoner av data. 
-Ved hjelp av BQL, et språk med syntaks i familie med SQL kan vi stille helt nye typer spørsmål sammenliknet med hva dagens databaser gjør oss i stand til.
+Vi startet dagen med å se på et produkt som forsøker å gjøre noe med dette. [BayesDB](http://probcomp.csail.mit.edu/bayesdb/) er en database som lar oss stille spørsmål om sannsynlige implikasjoner av data. Ved hjelp av BQL, et språk med syntaks i familie med SQL, kan vi stille helt nye typer spørsmål sammenliknet med hva dagens databaser gjør oss i stand til.
 
-Vokabularet utvides med keywords som INFER, ESTIMATE og SIMULATE. Disse gjør oss i stand til å estimere data vi mangler vårt basert på modellen for dataene vi allerede har. Vi kan også bruke modellen til kvalitetskontroll på dataene, eller å utlede atributter som har gjensidige sammenhenger eller avhengigheter. En annen mulighet er å generere nye data basert på modellen, slik at vi får "dummy-data" som overholder mange av de samme egenskapene som det virkelige datasettet.
+Vokabularet utvides med keywords som INFER, ESTIMATE og SIMULATE. Disse gjør oss i stand til å estimere data vi mangler basert på modellen for dataene vi allerede har. Vi kan også bruke modellen til kvalitetskontroll på data, eller å utlede hvilke attributter som har gjensidige sammenhenger eller avhengigheter. En annen mulighet er å generere nye data basert på modellen, slik at vi får "dummy-data" som overholder mange av de samme egenskapene som det virkelige datasettet.
 
-Denne *modellen* som gjør oss i stand til alt dette er kjernen i *Probabilistic programming*. Heldigvis slipper vi som brukere av BayesDB å forholde oss til denne direkte. Modellen genereres ved hjelp av forskjellige teknikker fra maskinlæring, og approksimerer dataene så langt den klarer. Vi kan også utbedre modellen ytterligere ved hjelp av et eget *Meta-Modelling Language*, MML, dersom vi sitter på informasjon om relasjoner i datasettet.
+Denne *modellen* som gjør oss i stand til alt dette er kjernen i probabilistic programming. Sannsynlighetsmodeller/distributions[?], og særlig det å velge en som passer dataene, kan være vanskelig. Heldigvis slipper vi som brukere av BayesDB å forholde oss til denne direkte. Modellen genereres ved hjelp av forskjellige teknikker fra maskinlæring, og approksimerer dataene så langt den klarer. Vi har selvsagt også muligheten til å utbedre modellen ytterligere ved hjelp av et eget *Meta-Modelling Language* (MML) dersom vi sitter på informasjon om relasjoner i datasettet.
 
-Sesjonen var også innom et par andre systemer basert på denne måten å komputere på. Det kuleste var antagelig [Picture](http://mrkulk.github.io/www_cvpr15/), et språk/system for å utlede 3D-modeller fra bilder.
+Etter BayesDB var vi også innom et par andre systemer basert på denne måten å komputere på. Den mest interessante var antagelig [Picture](http://mrkulk.github.io/www_cvpr15/), et språk/system for å utlede 3D-modeller fra bilder.
 
-Picture fungerer slik at en 3D-scene-generator utleder et utkast til verdier for ulike atributter for modellen. Disse sendes til en renderer, som så lager et sample-bilde som sendes til en modul som sammenlikner generert bilde med input. Rinse and repeat 100 000 ganger, og systemet har kommet frem til en 3D-modell som sannsynligvis matcher ganske godt.
+Picture fungerer slik at en 3D-scene-generator utleder et utkast til verdier for ulike atributter for modellen. Disse sendes til en renderer, som så lager et sample-bilde som sendes til en modul som sammenlikner generert bilde med input. Rinse and repeat 100000 ganger, og systemet har kommet frem til en 3D-modell som *sannsynligvis* matcher bildet ganske godt.
 
-Alle prosjektene som ble presentert hadde en del igjen før de var helt klare, men virket veldig spennende allerde nå. Gleder meg til å se hvor dette ender.
+Systemet må på forhånd vite hva slags objekter eller scener bildet kan inneholde slik at generatoren har noe å ta utgangspunkt i. Ekesmplene som ble demonstrert var modellering av en veibane og av ansikter.
+
+Alle prosjektene som ble presentert hadde en del igjen før de var helt klare, men virket veldig spennende allerde nå. Det blir spennende å se hvor dette ender.
 
 
 ### Live programming
 
-En annen som hadde tanker om hvordan vi bør programmere i fremtiden var Sean McDirmid ved Microsoft Research. Han presenterte et prosjekt der de utforsker hvordan en kan gå fra flyten "skriv kode, kjør kode, se hva som skjer, prøv igjen" til en mer kontinuerlig prosess der resultatet av endringer er umiddelbart åpenbare.
+En annen som hadde tanker om hvordan vi bør programmere i fremtiden var Sean McDirmid ved Microsoft Research. Han presenterte et prosjekt der de utforsker hvordan en kan gå fra følgende flyt
 
-Han presenterer en platform/et programmeringspråk som har et begrep om flyt frem og tilbake i tid, og der infererte typer avgjør mulige verdier. Platformen var splittet mellom kode, og resultatet av koden, og alle eksmpelene handlet om å tegne ulike 2D-figurer.
+- skriv kode, 
+- kjør kode, 
+- se hva som skjer, 
+- prøv igjen
+
+til en mer kontinuerlig prosess, der resultatet av endringer er umiddelbart åpenbare.
+
+Han presenterte en platform/et programmeringspråk som har et begrep om flyt frem og tilbake i tid, og der infererte typer avgjør mulige verdier. Platformen var splittet mellom kode, og resultatet av koden.
 
 En av egenskapene han demonstrerte med språket var *holes*, en slags "tom" verdi som ble tildelt en default eller tilfeldig verdi av systemet, basert på typen. En annen viktig egenskap var *scrubbing*, eller muligheten til å velge mellom gyldige verdier for typen, og samtidig se output endre seg i real time. Mye av programmeringsflyten foregikk ved å klikke og dra linker/sammenhenger mellom verdier og symboler i koden.
+
+-- og alle eksmpelene handlet om å tegne ulike 2D-figurer.
 
 Det hele virket veldig til å være på stadiet der en utforsket ulike idéer. Har litt vanskelig for å se for meg denne typen programmering på den typen problemer vi jobber med til daglig, men har sansen for at det likevel drives research av denne typen.
 
@@ -124,6 +133,13 @@ Er relativt usikker på om dette er noe som er brukbart for spilldesignere flest
 
 ## Konklusjoner
 
-Kom vi frem til hva programmering kommer til å være i fremtiden? Naturligvis ikke. Men mange av idéene presentert i løpet av dagen virker spennene og verdt å utforske mer.
+Kom vi frem til hva programmering kommer til å være i fremtiden? Naturligvis ikke. 
+Det var ingen som viste grensesnitt på linje med Minority Report eller Jarvis[?] fra IronMan, og det var ingen som hadde med seg quantium computers. Likevel var mange av idéene som ble presentert i løpet av dagen spennende, og vel verdt å utforske mer.
 
-Alle foredragene ble tatt opp på video, og legges ut etter konferansen. Når det skjer kommer jeg til å legge inn linker her.
+Å se inn i fremtiden er i beste fall optimistisk. Men dette er folk har idéer om hvordan fremtiden *bør* se ut, og som jobber med å gjøre det til realitet. Jeg tror arbeidet med å gjøre programmering tilgjengelig for folk flest er særlig viktig. Som en av foredragsholderne sa
+
+> I want the people who cure cancer to be able to use these tools, so they can cure cancer faster!
+
+Alle foredragene ble naturligvis [tatt opp på video, og er tilgjengelige][fpw-videos] for den som måtte være interessert.
+
+[fpw-videos]: todo
