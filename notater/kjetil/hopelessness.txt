@@ -1,0 +1,30 @@
+Hopelessness and Confidence in Distributed Systems Design
+Camille Fournier
+
+Andre notater:
+http://trevmex.com/post/129916074918/hopelessness-and-confidence-in-distributed-systems
+
+Distributed systems are ugly, hard, and they are here to stay.
+
+Need to fully embrace tradeoffs
+
+Embrace hopelessness, gain confidence
+Innse at vi aldri kommer til å bygge perfekte systemer, og ..
+
+a lesson for a way to think about the world
+
+tradeoffs - the eternal struggle
+
+-	scale
+-	failure tolerance
+
+independent failures
+interdependent failures
+
+Amazon post-mortem on dynamo
+http://fortune.com/2015/09/23/amazon-database-glitch/
+
+Eks: A distributed cache for risk analysis
+
+Trengte å skalere et in-memory system. gav opp fault-tolerance, performance, etc, for å få ting til å fungere. skrev et synkronisert system for å i et hele tatt få løst problemet.
+

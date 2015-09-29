@@ -1,0 +1,52 @@
+Everything old is new again: quoted domain spesific languages
+Philip Wadler
+
+How to integrate a domain spesific language and host language
+
+Quotation, McCarthy 1960
+Normalisation, Gentzen 1935
+
+A function language is a dsl for creating dsls
+
+to eksempler:
+ - sql into f#
+ - ...
+
+	Dette er allerde gjort i .net: LINQ
+	Men linq gjør det ikke riktig, og ikke alle queries fungerer (og forskjelige ting fungerer i f# 2 og 3)
+
+	
+
+ser på sql over databasetabeller
+ser på data i f#-datastruktur, og ser at koden for å hente matcher sql-en ganske tett
+
+
+ikke effektivt (spørringen)
+kan ikke lagres (datastrktur) i minne når det blier mye data
+
+	- Tar for mye tid, tar for mye plass :(
+
+representerer sørringen (kode) som et quoted term
+run-funksjon tar inn spørring-term, og kjører den
+
+run
+	simplify quoted expr
+	translate query to sql
+	execute sql
+	translate answer to host language
+
+each run generates one query if
+- anwer i´type is flat (ist of recods of scalars)
+- only permitted operations (e.g. no recurson)
+- only refers to one database
+
+er ikke begrenset til f#, alle språk osm har quoting kan gjøre dette
+
+
+kan lage dynamisk genererte queries
+
+
+closed quotation vs open quotations
+
+quotations of functions vs functions of quotations
+
