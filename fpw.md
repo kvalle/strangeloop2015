@@ -31,6 +31,8 @@ Hvorfor er dette så viktig? Selv om data er kjærnen i mange av systemene vi la
 
 Vi startet dagen med å se på et produkt som forsøker å gjøre noe med dette. [BayesDB](http://probcomp.csail.mit.edu/bayesdb/) er en database som lar oss stille spørsmål om sannsynlige implikasjoner av data. Ved hjelp av BQL, et språk med syntaks i familie med SQL, kan vi stille helt nye typer spørsmål sammenliknet med hva dagens databaser gjør oss i stand til.
 
+![BayesDB screenshot](http://probcomp.csail.mit.edu/bayesdb/notebook.png)
+
 Vokabularet utvides med keywords som INFER, ESTIMATE og SIMULATE. Disse gjør oss i stand til å estimere data vi mangler basert på modellen for dataene vi allerede har. Vi kan også bruke modellen til kvalitetskontroll på data, eller å utlede hvilke attributter som har gjensidige sammenhenger eller avhengigheter. En annen mulighet er å generere nye data basert på modellen, slik at vi får "dummy-data" som overholder mange av de samme egenskapene som det virkelige datasettet.
 
 Denne *modellen* som gjør oss i stand til alt dette er kjernen i probabilistic programming. Sannsynlighetsmodeller/distributions[?], og særlig det å velge en som passer dataene, kan være vanskelig. Heldigvis slipper vi som brukere av BayesDB å forholde oss til denne direkte. Modellen genereres ved hjelp av forskjellige teknikker fra maskinlæring, og approksimerer dataene så langt den klarer. Vi har selvsagt også muligheten til å utbedre modellen ytterligere ved hjelp av et eget *Meta-Modelling Language* (MML) dersom vi sitter på informasjon om relasjoner i datasettet.
@@ -41,7 +43,9 @@ Etter BayesDB var vi også innom et par andre systemer basert på denne måten �
 
 Picture fungerer slik at en 3D-scene-generator utleder et utkast til verdier for ulike atributter for modellen. Disse sendes til en renderer, som så lager et sample-bilde som sendes til en modul som sammenlikner generert bilde med input. Rinse and repeat 100000 ganger, og systemet har kommet frem til en 3D-modell som *sannsynligvis* matcher bildet ganske godt.
 
-Systemet må på forhånd vite hva slags objekter eller scener bildet kan inneholde slik at generatoren har noe å ta utgangspunkt i. Ekesmplene som ble demonstrert var modellering av en veibane og av ansikter.
+![Eksempler på bruk av Picture](http://mrkulk.github.io/www_cvpr15/extended_res.png)
+
+Systemet må på forhånd vite hva slags objekter eller scener bildet kan inneholde slik at generatoren har noe å ta utgangspunkt i. Blant eksemplene som ble demonstrert var modellering av en veibane og av ansikter.
 
 > Video: [An Overview of Probabilistic Programming - Vikash K. Mansinghka](https://youtu.be/-8QMqSWU76Q)
 
@@ -87,6 +91,8 @@ Foredragsholderen, Tomas Petricek, argumentete for at for å løse disse problem
 
 "Kildekoden" til en artikkel i The Gamma er en kombinasjon av markdown-tekst med kildekode for de uilke plottene/figurene der det trengs. Koden er i F#, og nøkkelen til det hele er støtten for Type Providers. Disse gjøre det enkelt å plugge dataene inn i grafer, der typene tilbyr mulighet til å automatisk generere menyer for å la leseren endre parameterne i plottene.
 
+![Screenshot from The Gamma](gamma-screenshot.png)
+
 For de som er ekstra interesserte kan også kildekoden for plottene eksponeres, slik at leseren selv kan programmere plottet, og hente ut ytterligere data fra datakildene.
 
 Det er mye som ikke er utforsket rundt dette temaet, men jeg håper det slår an, for dette virket som en måte jeg godt kunne tenke meg å både lese og skrive artikler på.
@@ -107,21 +113,23 @@ Det blir for vanskelig å forklare innholdet, men anbefaler å se videoen. Alter
 
 ### Eve
 
-Som en av de inviterte foredragsholderne var Chris Granger, kjent for blant annet Light Table, på scenen for å fortelle om sitt nyeste prosjekt, Eve, som har relativt høye ambisjoner:
+Som en av de inviterte foredragsholderne var Chris Granger, kjent for blant annet Light Table. Han var på scenen for å fortelle om sitt nyeste prosjekt, [Eve](http://witheve.com/), som har relativt høye ambisjoner:
 
 > "Our goal is basically to bring programming to everyone."
 
-Chris fortalte om mye av prøvingen, og ikke minst feilingen, de hadde vært igjennom i ulike iterasjoner av grensesnitt som forsøker å gjøre programmering enkelt nok til at ikke-programmerere synes det blir overkommelig. 
+Chris fortalte om mye av prøvingen, og ikke minst feilingen, som de hadde vært igjennom i ulike iterasjoner av grensesnitt som forsøker å gjøre programmering enkelt nok til at ikke-programmerere synes det blir overkommelig. En av lærdommene har vært at det de må sikte på å lage et verktøy som likner langt mer på Office enn på Visual Studio.
 
-En av de store overaskelsene var visstnok *scope*, som var relativt uforståelig for folk flest. På veien mot målet har de defor slått fra seg både scope og datastrukturer som features.
+![Eve screenshot](http://www.chris-granger.com/images/v0/eveTrianglesOfFriends.png)
 
-Resultatet er et sammensatt beist, som stadig er i utforming:
+En av de store overaskelsene var visstnok *scope* -- et konsept som viste seg å være relativt uforståelig for folk flest. På veien mot målet har de defor slått fra seg både scope og datastrukturer som features. Resultatet er et sammensatt beist, som stadig er i utforming:
 
 > "Eve is a relational database, a new programming language, an IDE, and a UI editor, all built from scratch to fit our goals for a better programming foundation.""
 
 Hva det ender opp som gjenstår å se, men det er nok et prosjekt jeg kommer til å holde et lite øye med fremover.
 
-> Video: [Eve - Chris Granger](https://youtu.be/5V1ynVyud4M)
+> Video: [Eve - Chris Granger](https://youtu.be/5V1ynVyud4M)  
+
+For en kort og grei om hvor Eve står per i dag, se [denne bloggposten](http://www.chris-granger.com/2015/08/17/version-0/).
 
 ### Apparatus
 
@@ -132,7 +140,6 @@ Diagrammene skal kunne brukes til å utforske eller forklare kausaliteter, samme
 Kort fortalt er Apparatus kombinasjonen av en editor for dataflyt-programmering og et grafikkprogram basert på direkte manipulasjon av figurer. Ved hjel av propagering av verdier og sammenhenger mellom figurerers attributter kan en skape overaskende interessante ting.
 
 > Video: [Apparatus: A Hybrid Graphics Editor / Programming Environment for Creating Interactive Diagrams - Toby Schachman](https://youtu.be/i3Xack9ufYk)
-
 
 ### Ceptre
 
