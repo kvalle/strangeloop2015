@@ -34,15 +34,13 @@ Foredraget er overhodet ikke teknisk, men er en god tankevekker og en påminnels
 
 Et annet foredrag vi absolutt vil anbefale å se, i alle fall om du er interessert i programmeringspråk eller logikk, er Philip Wadler sin presentasjon. Mannen er ikke bare en legende i programmeringspråkmiljøet, men også en karismatisk og morsom foredragsholder.
 
-Det starter med en kort historiefortelling om programmeringens spede begynnelse. Vi ser hvordan [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), [rekurive funksjoner](https://en.wikipedia.org/wiki/Computable_function) og [turingmaskiner](https://en.wikipedia.org/wiki/Turing_machine) alle dukket samtidig. 
+Det starter med en kort historiefortelling om programmeringens spede begynnelse. Vi ser hvordan [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), [rekurive funksjoner](https://en.wikipedia.org/wiki/Computable_function) og [turingmaskiner](https://en.wikipedia.org/wiki/Turing_machine) alle dukket samtidig. Er matematikk oppdaget eller noe som blir oppfunnet av matematikere? Wadler argumenterer for det førstnevnte, og at det samme dermed gjelder lambda calculus.
 
-Er matematikk oppdaget eller noe som blir oppfunnet av matematikere? Wadler argumenterer for det førstnevnte, og at det samme dermed gjelder lambda calculus.
-
-> Most of you use programming languages that are invented. And you can tell, can't you? This is my invitation to you: to use programming languages that are discovered.
+> "Most of you use programming languages that are invented. And you can tell, can't you? This is my invitation to you: to use programming languages that are discovered."
 
 Han presenterer videre [Gentzens regler for deduksjon](https://no.wikipedia.org/wiki/Naturlig_deduksjon), og hvordan disse kan sees som et typesystem for lambda calculus. Preposisjoner er her ekvivalente med typer, bevis med programmer, og normalisering (forenkling) av bevis blir det samme som evaluering av programmer. Det er denne sammenhengen som er kjent som [Curry–Howard korrespondansen](https://en.wikipedia.org/wiki/Curry–Howard_correspondence).
 
-> Every good idea will be discovered twice. Once by a logician, and once by a computer scientist.
+> "Every good idea will be discovered twice. Once by a logician, and once by a computer scientist."
 
 Det er mange morsomme poenger underveis, og vi er innom alt fra filmen Independence Day til multiverses. Et fremragende foredrag, såfremt du ikke er redd for slides med litt matematikk på.
 
