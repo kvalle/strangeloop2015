@@ -1,3 +1,5 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/strangeloop2015/21981543645/" title="Got Loop?"><img src="https://farm6.staticflickr.com/5731/21981543645_cd325d3b2c_h.jpg" alt="Got Loop?"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 # StrangeLoop 2015
 
 **StrangeLoop er en spennende konferanse for softwareutviklere, som arrangeres årlig i St. Louis, Missouri. Konferansen har vanligvis et bredt spekter av tema, slik som programmeringspråk, alternative databaser, concurrency, distribuerte systemer og sikkerhet, og fokuserer mer på teknologi enn på prosess.**
@@ -11,6 +13,8 @@ Det var i år mye fokus på problemstillinger relatert til distribuerte systemer
 Et av foredragene som sitter sterkest igjen hos oss etter konferansen var keynoten Idalin "Abby" Bobé holdt. Kanskje fordi denne touchet litt mer alvorligere tema enn en vanligvis får servert på slike konferanser. 
 
 Hun fortalte om sin bakgrunn, om oppveksten med minoritetsbakgrunn i fattige strøk i Philadelphia, og arbeidet hun gjør i dag. Bobé er, i tillegg til å være konsulent i ThoughtWorks, en selvutnevnt tech-aktivist. Hun fokuserer på hvordan teknologi kan brukes til å hjelpe folk som trenger det, både direkte og ved å samle oppmerksomhet rundt viktige saker.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/strangeloop2015/21360817283/" title="Idalin &quot;Abby&quot; Bobé"><img src="https://farm6.staticflickr.com/5805/21360817283_385ec4b7e3_k.jpg" alt="Idalin &quot;Abby&quot; Bobé"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Både Bobé og andre i ThoughtWorks har vært i Ferguson i forbindelse med urolighetene der, og hun malte et tydelig bilde av hvordan teknologi har bidratt—både på godt og ondt. Selv om teknologi har spilt en viktig rolle for aktivistene for å få delt det som skjer med resten av verden, og å få fokus på ting myndighetene forsøker å skjule, så har også teknologien blitt brukt imot dem.
 
@@ -32,6 +36,8 @@ Foredraget er overhodet ikke teknisk, men er en god tankevekker og en påminnels
 ## λ calculus, et universelt programmeringspråk
 
 Et annet foredrag vi absolutt vil anbefale å se, i alle fall om du er interessert i programmeringspråk eller logikk, er Philip Wadler sin presentasjon. Mannen er ikke bare en legende i programmeringspråkmiljøet, men også en karismatisk og morsom foredragsholder.
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/strangeloop2015/21794046360/" title="Philip Wadler Prepares to Enter the Monad"><img src="https://farm6.staticflickr.com/5672/21794046360_ccc3ff010a_h.jpg" alt="Philip Wadler Prepares to Enter the Monad"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Det starter med en kort historiefortelling om programmeringens spede begynnelse. Vi ser hvordan [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), [rekurive funksjoner](https://en.wikipedia.org/wiki/Computable_function) og [turingmaskiner](https://en.wikipedia.org/wiki/Turing_machine) alle dukket samtidig. Er matematikk oppdaget eller noe som blir oppfunnet av matematikere? Wadler argumenterer for det førstnevnte, og at det samme dermed gjelder lambda calculus.
 
@@ -90,3 +96,7 @@ Hvis du er ny til stream processing så anbefaler vi å ta en titt på foredrage
 Distribuerte systemer er vanskelig.
 
 ![Everything is fine](everything-is-fine.jpg)
+
+&nbsp;
+
+*Bilder fra https://www.flickr.com/photos/strangeloop2015/*
