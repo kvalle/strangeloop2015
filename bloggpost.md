@@ -1,50 +1,53 @@
 # StrangeLoop 2015
 
-> INTRO HER: Noe om at vi var tre BEKKere som dro på StrangeLoop. Kort hva StrangeLoop er og hva slags temaer som det vanligvis fokuseres på. (Kjetil fixxxxer)
+**StrangeLoop er en spennende konferanse for softwareutviklere, som arrangeres årlig i St. Louis, Missouri. Konferansen har vanligvis et bredt spekter av tema, slik som programmeringspråk, alternative databaser, concurrency, distribuerte systemer og sikkerhet, og fokuserer mer på teknologi enn på prosess.**
 
+**Årets konferanse—den syvende i rekka—ble nylig arrangert, og BEKK var naturligvis til stede.**
+
+Det var i år mye fokus på problemstillinger relatert til distribuerte systemer. Kanskje ikke så overaskende, slik som mikrotjenester er i vinden om dagen. Vi kommer tilbake til dette, men vil først nevne et par andre foredrag vi synes var svært gode.
 
 ## Teknologi i aktivisme og undertrykkelse
 
-> TODO: finn bedre tittel
+Et av foredragene som sitter sterkest igjen hos oss etter konferansen var keynoten Idalin "Abby" Bobé holdt. Kanskje fordi denne touchet litt mer alvorligere tema enn en vanligvis får servert på slike konferanser. 
 
-Idalin "Abby" Bobé holdt, som en av konferansens keynotes, 
+Hun fortalte om sin bakgrunn, om oppveksten med minoritetsbakgrunn i fattige strøk i Philadelphia, og arbeidet hun gjør i dag. Bobé er, i tillegg til å være konsulent i ThoughtWorks, en selvutnevnt tech-aktivist. Hun fokuserer på hvordan teknologi kan brukes til å hjelpe folk som trenger det, både direkte og ved å samle oppmerksomhet rundt viktige saker.
 
-Handlet ikke om teknologi direkte, men om hvordan teknologi kan brukes til godt eller ondt.
-Abby har vært aktivist, bla bla, og var har blant annet vært mye i Ferguson ifm urolighetene der. 
+Både Bobé og andre i ThoughtWorks har vært i Ferguson i forbindelse med urolighetene der, og hun malte et tydelig bilde av hvordan teknologi har bidratt—både på godt og ondt. Selv om teknologi har spilt en viktig rolle for aktivistene for å få delt det som skjer med resten av verden, og å få fokus på ting myndighetene forsøker å skjule, så har også teknologien blitt brukt imot dem.
 
-Hun fortalte om sin bakgrunn -- om oppveksten som med minoritetsbakgrunn i fattige strøk -- og jobben hennes. Konsulent i ToughtWorks *og* aktivist. 
-
-Teknologi har spilt en viktig rolle for aktivistene mtp deling av hva som skjer, og å få fokus på ting myndighetene forsøker å skjule. Men den samme teknologien blir også brukt mot aktivistene. Med tanke på dette, oppfordret hun alle til stede til å tenke igjennom hvordan de kan bidra.
+Som teknologer har vi mange muligheter, og det er viktig å tenke igjennom hvordan vi bruker dem.
 
 > Video: ["From Protesting to Programming: Becoming a Tech Activist" by Idalin "Abby" Bobé](https://youtu.be/gy82S8tjJX8)  
 
-Morgan Marquis-Boire fortsatt på sett og vis tråden Abby startet. Han har lang fartstid innen sikkerhet, og har sett mange trussler på nært hold.
+En annen keynote, av Morgan Marquis-Boire, fortsatte på sett og vis denne tråden. Mannen har lang fartstid innen sikkerhetsfeltet, og har sett mange trussler på nært hold.
 
-Han fortalte om de ulike truslene, 
+Han fortalte om mange av dem som velger å bruke teknologi til ondt, og deres motiver og insentiver. Vi fikk høre om alt fra dedikerte cyberangrepsteam til hacking-verktøy solgt som hyllevare, hvem som bruker slikt, og hva det typisk brukes til.
 
-[Hacking Team](https://en.wikipedia.org/wiki/Hacking_Team)
+Det ble presentert en rekke anekdoter fra ting han har opplevd i arbeidet sitt, ispedd en god dose humor underveis.
 
-Underveis fikk vi servert flere anekdoter om ting han selv hadde sett på nært hold, slik som 
-... [gode eksempler her]
-
-> Stikkord:
-> 
-> - Hacking som hyllevare -- Selskap selger "verktøykasser" som brukes til hacking-angrep lovelig
-> - Hvem som står bak ulike typer angrep
-> - Hvordan forskjellige angrep fungerer (litt overordnet)
+Foredraget er overhodet ikke teknisk, men er en god tankevekker og en påminnelse om en del ting det er lett å glemme om en ikke jobber med sikkerhet til daglig.
 
 > Video: ["Security for Humans: Privacy and Coercion Resistant Design" by Morgan Marquis-Boire](https://youtu.be/k4ypqzOShZs)
 
-Begge disse er foredrag vi anbefaler alle å se.
 
 
-## Highlights
+## λ calculus, et universelt programmeringspråk
 
-> Noe om Wadler sitt foredrag. (Kjetil fixes.)
+Et annet foredrag vi absolutt vil anbefale å se, i alle fall om du er interessert i programmeringspråk eller logikk, er Philip Wadler sin presentasjon. Mannen er ikke bare en legende i programmeringspråkmiljøet, men også en karismatisk og morsom foredragsholder.
+
+Det starter med en kort historiefortelling om programmeringens spede begynnelse. Vi ser hvordan [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), [rekurive funksjoner](https://en.wikipedia.org/wiki/Computable_function) og [turingmaskiner](https://en.wikipedia.org/wiki/Turing_machine) alle dukket samtidig. 
+
+Er matematikk oppdaget eller noe som blir oppfunnet av matematikere? Wadler argumenterer for det førstnevnte, og at det samme dermed gjelder lambda calculus.
+
+> Most of you use programming languages that are invented. And you can tell, can't you? This is my invitation to you: to use programming languages that are discovered.
+
+Han presenterer videre [Gentzens regler for deduksjon](https://no.wikipedia.org/wiki/Naturlig_deduksjon), og hvordan disse kan sees som et typesystem for lambda calculus. Preposisjoner er her ekvivalente med typer, bevis med programmer, og normalisering (forenkling) av bevis blir det samme som evaluering av programmer. Det er denne sammenhengen som er kjent som [Curry–Howard korrespondansen](https://en.wikipedia.org/wiki/Curry–Howard_correspondence).
+
+> Every good idea will be discovered twice. Once by a logician, and once by a computer scientist.
+
+Det er mange morsomme poenger underveis, og vi er innom alt fra filmen Independence Day til multiverses. Et fremragende foredrag, såfremt du ikke er redd for slides med litt matematikk på.
 
 > Video: ["Propositions as Types" by Philip Wadler](https://youtu.be/IOiZatlZtGU)
 
-> Noe om hvem som bør se dette foredraget.
 
 ## Distribuerte systemer
 
