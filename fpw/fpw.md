@@ -44,7 +44,7 @@ Denne *modellen* som gjør oss i stand til alt dette er kjernen i probabilistic 
 
 Etter BayesDB var vi innom et par andre systemer som også var basert på sannsynlighetsregning. Det mest interessante var antagelig [Picture](http://mrkulk.github.io/www_cvpr15/), et språk/system for å utlede 3D-modeller fra bilder.
 
-Picture fungerer slik at en 3D-scene-generator utleder et utkast til verdier for ulike atributter for modellen. Disse sendes til en renderer, som så lager et sample-bilde som sendes til en modul som sammenlikner generert bilde med input. Rinse and repeat mange mange ganger, og systemet har kommet frem til en 3D-modell som (forhåpentligvis) matcher bildet ganske godt.
+Picture fungerer slik at en 3D-scene-generator utleder et utkast til verdier for ulike atributter for modellen. Disse sendes til en renderer, som så lager et sample-bilde som sendes til en modul som sammenlikner generert bilde med input. Rinse and repeat mange, mange ganger, og systemet har kommet frem til en 3D-modell som (forhåpentligvis) matcher bildet ganske godt.
 
 ![Eksempler på bruk av Picture](https://bekkopen.blob.core.windows.net/attachments/08a0ff87-8b17-47ef-90e0-59ab4ef8a7dc)
 
@@ -68,7 +68,7 @@ til en mer kontinuerlig prosess, der resultatet av endringer er umiddelbart åpe
 
 Han presenterte en platform/et programmeringspråk som har et begrep om flyt frem og tilbake i tid, og der infererte typer avgjør mulige verdier. Platformen var splittet mellom kode, og resultatet av koden.
 
-En av egenskapene han demonstrerte med språket var *holes*, en slags "tom" verdi som ble tildelt en default eller tilfeldig verdi av systemet, basert på typen. En annen viktig egenskap var *scrubbing*, eller muligheten til å velge mellom gyldige verdier for typen, og samtidig se output endre seg i real time. Mye av programmeringsflyten foregikk ved å klikke og dra linker/sammenhenger mellom verdier og symboler i koden.
+En av egenskapene han demonstrerte med språket var *holes*, en slags "tom" verdi som ble tildelt en default eller tilfeldig verdi av systemet, basert på typen. En annen viktig egenskap var *scrubbing*, eller muligheten til å velge mellom gyldige verdier for typen, og samtidig se output endre seg i sanntid. Mye av programmeringsflyten foregikk ved å klikke og dra linker/sammenhenger mellom verdier og symboler i koden.
 
 Det skal sies at alle eksemplene som ble demonstrert handlet om å tegne ulike 2D-figurer, og jeg har litt vanskelig for å se for meg dette anvendt til å løse den typen problemer de fleste jobber med til daglig. Det hele virket veldig til å være på stadiet der en testet ulike idéer, men det er jo artig at det forskes på ting som dette.
 
@@ -83,14 +83,14 @@ De resterende foredragene handlet i større grad om hvordan vi kan hjelpe andre 
 
 En trend som allerede er godt i gang er at journalister i stadig økende grad benytter åpne data til å finne informasjon til artikler. Dette fører til to store problemstillinger:
 
-- *Transparency*  — er konklusjonene missledende?
+- *Transparency*  — er konklusjonene misledende?
 - *Reproducability* — er konklusjonene korrekte?
 
 Hvor kommer dataene fra? Er koden brukt til å lage figurer og å trekke konklusjoner open source? Kan leseren endre presentasjonen, slik at en kan belyse ulike aspekter ved dataene?
 
-Foredragsholderen, Tomas Petricek, argumentete for at for å løse disse problemene må denne typen artikler sees på som programmer. Som illustrasjon av dette ble verktøyet [The Gamma](http://thegamma.net/) demonstrert. Her blir både journalisten og leserne (i varierende grad) ansett som programmerere.
+Foredragsholderen, Tomas Petricek, argumenterte for at for å løse disse problemene må denne typen artikler sees på som programmer. Som illustrasjon av dette ble verktøyet [The Gamma](http://thegamma.net/) demonstrert. Her blir både journalisten og leserne (i varierende grad) ansett som programmerere.
 
-"Kildekoden" til en artikkel i The Gamma er en kombinasjon av tekst (formatert vha Markdown) og programkode for de uilke plottene/figurene som skal vises. Koden skrives i F#, og nøkkelen til det hele er støtten som der finnes for [Type Providers](https://msdn.microsoft.com/en-us/library/hh156509.aspx). Disse gjøre det enkelt å plugge dataene inn i grafer, der typene tilbyr mulighet til å automatisk generere menyer for å la leseren endre parameterne i plottene.
+"Kildekoden" til en artikkel i The Gamma er en kombinasjon av tekst (formatert vha Markdown) og programkode for de uilke plottene/figurene som skal vises. Koden skrives i F#, og nøkkelen til det hele er [Type Providers](https://msdn.microsoft.com/en-us/library/hh156509.aspx). Disse gjør det enkelt å plugge dataene inn i grafer, der typene tilbyr mulighet til å automatisk generere menyer for å la leseren endre parameterne i plottene.
 
 ![Screenshot from The Gamma](https://bekkopen.blob.core.windows.net/attachments/d847872d-351d-4a8f-8cea-31d21893e4cb)
 
@@ -106,7 +106,7 @@ Jeg sitter igjen med følelsen av at det er mye som er utforsket rundt dette tem
 
 ### Constraint Logic Propagation Conflict Spreadsheets 
 
-Har du noen gang hatt lyst til å programmere Excel med språk som minner om Prolog, mens du utforsker mulige scenarioer basert på dataene dine og leker med visualisering og annet snacks? Kan ikke si tanken hadde streifet meg heller. Men William Taysom er tydeligvis en mann med mange idéeer rundt akkurat dette.
+Har du noen gang hatt lyst til å programmere Excel med språk som minner om Prolog, mens du utforsker mulige scenarioer basert på dataene dine og leker med visualisering og annet snacks? Kan ikke si tanken hadde streifet meg heller. Men William Taysom er tydeligvis en mann med mange idéer rundt akkurat dette.
 
 For å teste og illustrere ting har han samlet mange av disse idéene i en plugin han har skrevet til teksteditoren Atom. Pluginen er ikke gjort tilgjengelig enda, men den danner i alle fall en god basis for demoen han kjørte i foredraget.
 
@@ -144,7 +144,7 @@ Etter Eve fikk vi en presentasjon av [Apparatus](http://aprt.us). Apparatus har,
 
 Diagrammene skal kunne brukes til å utforske eller forklare kausaliteter, sammenhenger, og kombinasjoner av parametere, og utformes ved hjelp av en kombinasjon av tegning og enkel programmering.
 
-Kort fortalt er Apparatus kombinasjonen av en editor for dataflyt-programmering og et grafikkprogram for direkte manipulasjon av figurer. Ved hjelp av propagering av verdier og sammenhenger mellom figurers attributter kan en skape overaskende interessante ting. Sjekk ut noen [eksemplene på siden](http://aprt.us/#examples) for å se hvordan det hele virker.
+Kort fortalt er Apparatus kombinasjonen av en editor for dataflyt-programmering og et grafikkprogram for direkte manipulasjon av figurer. Ved hjelp av propagering av verdier og sammenhenger mellom figurers attributter kan en skape overaskende interessante ting. Sjekk ut noen av [eksemplene på siden](http://aprt.us/#examples) for å se hvordan det hele virker.
 
 > Video: [Apparatus: A Hybrid Graphics Editor / Programming Environment for Creating Interactive Diagrams - Toby Schachman](https://youtu.be/i3Xack9ufYk)
 
