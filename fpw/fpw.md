@@ -99,7 +99,7 @@ Foredragsholderen, Tomas Petricek, argumenterte for at for å løse disse proble
 
 For ekstra interesserte lesere kan også kildekoden for plottene eksponeres, slik at leseren selv kan programmere hva som vises ved å hente ut ytterligere data fra datakildene. Ettersom dataene er understøttet av type providers kan brukeren hjelpes med forslag underveis, noe som gjør det enkelt å utforske datene uten å kjenne APIet de kommer fra.
 
-Jeg sitter igjen med følelsen av at det er mye som er utforsket rundt dette temaet. Jeg håper at dette utvikles videre og slår an, for dette er en måte jeg godt kunne tenke meg å både lese og skrive artikler på.
+Jeg sitter igjen med følelsen av at det er mye som er uutforsket rundt dette temaet. Jeg håper at dette utvikles videre og slår an, for dette er en måte jeg godt kunne tenke meg å både lese og skrive artikler på.
 
 > Video: [The Gamma: Programming Tools for Data Journalism - Tomas Petricek](https://youtu.be/cYoO2RvZn7Y)
 
