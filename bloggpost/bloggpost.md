@@ -1,8 +1,8 @@
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/strangeloop2015/21981543645/" title="Got Loop?"><img src="https://farm6.staticflickr.com/5731/21981543645_cd325d3b2c_h.jpg" alt="Got Loop?"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+![Got Loop?](got-loop.jpg)
 
 # StrangeLoop 2015
 
-**StrangeLoop er en spennende konferanse for softwareutviklere som arrangeres årlig i St. Louis, Missouri. Konferansen har et bredt spekter av tema, slik som programmeringspråk, alternative databaser, concurrency, distribuerte systemer og sikkerhet, og fokuserer mer på teknologi enn på prosess.**
+**StrangeLoop er en spennende konferanse for softwareutviklere som arrangeres årlig i St. Louis, Missouri. Konferansen har et bredt spekter av tema, slik som programmeringsspråk, alternative databaser, concurrency, distribuerte systemer og sikkerhet, og fokuserer mer på teknologi enn på prosess.**
 
 **Årets konferanse—den syvende i rekka—ble nylig arrangert, og BEKK var til stede.**
 
@@ -14,9 +14,9 @@ Et av foredragene som sitter sterkest igjen hos oss etter konferansen var keynot
 
 Hun fortalte om sin bakgrunn, om oppveksten med minoritetsbakgrunn i fattige strøk i Philadelphia, og om det arbeidet hun gjør i dag. Bobé er, i tillegg til å være konsulent i ThoughtWorks, en selvutnevnt tech-aktivist. Hun fokuserer på hvordan teknologi kan brukes til å hjelpe folk som trenger det, både direkte og ved å skape oppmerksomhet rundt viktige saker.
 
-<!--<a data-flickr-embed="true" href="https://www.flickr.com/photos/strangeloop2015/21360817283/" title="Idalin &quot;Abby&quot; Bobé"><img src="https://farm6.staticflickr.com/5805/21360817283_385ec4b7e3_k.jpg" alt="Idalin &quot;Abby&quot; Bobé"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>-->
+![Idalin "Abby" Bobé talks about tech activism](abby.jpg)
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/strangeloop2015/21955796756/in/photostream/" title="Idalin &quot;Abby&quot; Bobé"><img src="https://farm1.staticflickr.com/665/21955796756_e36073ef39_k.jpg" alt="Idalin &quot;Abby&quot; Bobé"></a>
+[*Foto: Michael Bridge*](https://www.flickr.com/photos/strangeloop2015/21955796756/in/photostream/)
 
 Både Bobé og andre i ThoughtWorks har vært i Ferguson i forbindelse med urolighetene der, og hun malte et tydelig bilde av hvordan teknologi har bidratt—både på godt og ondt. Selv om teknologi har spilt en viktig rolle for aktivistene for å få delt det som skjer med resten av verden, og for å få fokus på ting myndighetene forsøker å skjule, så har også teknologien blitt brukt imot dem.
 
@@ -39,7 +39,9 @@ Foredraget er overhodet ikke teknisk, men er en god tankevekker og en påminnels
 
 Et annet foredrag vi absolutt vil anbefale å se, i alle fall om du er interessert i programmeringspråk eller logikk, er Philip Wadler sin presentasjon. Mannen er ikke bare en legende i programmeringspråkmiljøet, men også en karismatisk og morsom foredragsholder.
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/strangeloop2015/21794046360/" title="Philip Wadler Prepares to Enter the Monad"><img src="https://farm6.staticflickr.com/5672/21794046360_ccc3ff010a_h.jpg" alt="Philip Wadler Prepares to Enter the Monad"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+![Philip Wadler - Enter the Monad](enter-the-monad.jpg)
+
+[*Foto: Michael Bridge*](https://www.flickr.com/photos/strangeloop2015/21794046360/)
 
 Foredraget starter med en kort historiefortelling om programmeringens spede begynnelse. Vi ser hvordan [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), [rekurive funksjoner](https://en.wikipedia.org/wiki/Computable_function) og [turingmaskiner](https://en.wikipedia.org/wiki/Turing_machine) alle dukket samtidig. Er matematikk noe som blir oppdaget, eller er det noe som blir oppfunnet av matematikere? Wadler argumenterer for det førstnevnte, og at det samme dermed gjelder lambda calculus.
 
@@ -58,9 +60,11 @@ Det er mange morsomme poenger underveis, og vi er innom alt fra filmen Independe
 
 Det temaet det helt klart var flest foredrag om på årets StrangeLoop var distribuerte systemer. Her er det flere gode foredrag å velge mellom.
 
-Jon Moore startet fredagen med å presentere sin forskning på hvordan man kan oppnå både kausalitet mellom hendelser, samt synkroniserte klokker i distribuerte systemer. Løsning hans bygger på teorien om hybride lamport clocks, og heter 'Distributed Monotonic Clocks', hvor flokkteori (Flokkteori beskriver hvordan ett sett med individer koordinerer bevegelsene sine i en gruppe) brukes til å synkronisere klokker i en cluster av maskiner uten at alle maskinene må kommunisere med hverandre.
+Jon Moore startet fredagen med å presentere sin forskning på hvordan man kan oppnå både kausalitet mellom hendelser, samt synkroniserte klokker i distribuerte systemer. Løsning hans bygger på teorien om hybride lamport clocks, og heter 'Distributed Monotonic Clocks', hvor flokkteori (som beskriver hvordan ett sett med individer koordinerer bevegelsene sine i en gruppe) brukes til å synkronisere klokker i en cluster av maskiner uten at alle maskinene må kommunisere med hverandre.
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/23165290@N00/13783370045/" title="flock of geese - Tidal Basin - Washington DC - 2014-04-10"><img src="https://c2.staticflickr.com/6/5033/13783370045_ef476dbb9d_k.jpg" alt="https://c2.staticflickr.com/6/5033/13783370045_ef476dbb9d_k.jpg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+![Flock of geese](birds.jpg)
+
+[*Foto: Tim Evanson*](https://www.flickr.com/photos/23165290@N00/13783370045/)
 
 > Video: ["How to Have your Causality and Wall Clocks, Too" by Jon Moore](https://youtu.be/YqNGbvFHoKM)
 
@@ -97,7 +101,3 @@ Dette var bare en smakebit over det som ble servert på Strangeloop i år. Vi ha
 Distribuerte systemer er vanskelig.
 
 ![Everything is fine](everything-is-fine.jpg)
-
-&nbsp;
-
-*Bilder fra https://www.flickr.com/photos/strangeloop2015/*
