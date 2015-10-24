@@ -1,4 +1,4 @@
-![Got Loop?](got-loop.jpg)
+![Got Loop?](https://bekkopen.blob.core.windows.net/attachments/1976802f-7a9c-4c57-b6c5-8c131e40df4a)
 
 # StrangeLoop 2015
 
@@ -14,7 +14,7 @@ Et av foredragene som sitter sterkest igjen hos oss etter konferansen var keynot
 
 Hun fortalte om sin bakgrunn, om oppveksten med minoritetsbakgrunn i fattige strøk i Philadelphia, og om det arbeidet hun gjør i dag. Bobé er, i tillegg til å være konsulent i ThoughtWorks, en selvutnevnt tech-aktivist. Hun fokuserer på hvordan teknologi kan brukes til å hjelpe folk som trenger det, både direkte og ved å skape oppmerksomhet rundt viktige saker.
 
-![Idalin "Abby" Bobé talks about tech activism](abby.jpg)
+![Idalin "Abby" Bobé talks about tech activism](https://bekkopen.blob.core.windows.net/attachments/c7d43538-81a0-4978-95a9-e0574dc53b6e)
 
 [*Foto: Michael Bridge*](https://www.flickr.com/photos/strangeloop2015/21955796756/in/photostream/)
 
@@ -39,7 +39,7 @@ Foredraget er overhodet ikke teknisk, men er en god tankevekker og en påminnels
 
 Et annet foredrag vi absolutt vil anbefale å se, i alle fall om du er interessert i programmeringspråk eller logikk, er Philip Wadler sin presentasjon. Mannen er ikke bare en legende i programmeringspråkmiljøet, men også en karismatisk og morsom foredragsholder.
 
-![Philip Wadler - Enter the Monad](enter-the-monad.jpg)
+![Philip Wadler - Enter the Monad](https://bekkopen.blob.core.windows.net/attachments/7d214716-e348-48ab-86e4-531c47d74d15)
 
 [*Foto: Michael Bridge*](https://www.flickr.com/photos/strangeloop2015/21794046360/)
 
@@ -62,7 +62,7 @@ Det temaet det helt klart var flest foredrag om på årets StrangeLoop var distr
 
 Jon Moore startet fredagen med å presentere sin forskning på hvordan man kan oppnå både kausalitet mellom hendelser, samt synkroniserte klokker i distribuerte systemer. Løsning hans bygger på teorien om hybride lamport clocks, og heter 'Distributed Monotonic Clocks', hvor flokkteori (som beskriver hvordan ett sett med individer koordinerer bevegelsene sine i en gruppe) brukes til å synkronisere klokker i en cluster av maskiner uten at alle maskinene må kommunisere med hverandre.
 
-![Flock of geese](birds.jpg)
+![Flock of geese](https://bekkopen.blob.core.windows.net/attachments/3dc6f416-9840-485a-8f5c-85b49586e5b2)
 
 [*Foto: Tim Evanson*](https://www.flickr.com/photos/23165290@N00/13783370045/)
 
@@ -100,4 +100,4 @@ Dette var bare en smakebit over det som ble servert på Strangeloop i år. Vi ha
 
 Distribuerte systemer er vanskelig.
 
-![Everything is fine](everything-is-fine.jpg)
+![Everything is fine](https://bekkopen.blob.core.windows.net/attachments/897149ed-8471-4ebc-a52a-227d259814f9)
