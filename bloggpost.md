@@ -4,21 +4,21 @@
 
 **StrangeLoop er en spennende konferanse for softwareutviklere som arrangeres årlig i St. Louis, Missouri. Konferansen har et bredt spekter av tema, slik som programmeringspråk, alternative databaser, concurrency, distribuerte systemer og sikkerhet, og fokuserer mer på teknologi enn på prosess.**
 
-**Årets konferanse—den syvende i rekka—ble nylig arrangert, og BEKK var naturligvis til stede.**
+**Årets konferanse—den syvende i rekka—ble nylig arrangert, og BEKK var til stede.**
 
 Det var i år mye fokus på problemstillinger relatert til distribuerte systemer. Kanskje ikke så overaskende, slik som mikrotjenester er i vinden om dagen. Vi kommer tilbake til dette, men vil først nevne et par andre foredrag vi synes var svært gode.
 
 ## Teknologi i aktivisme og undertrykkelse
 
-Et av foredragene som sitter sterkest igjen hos oss etter konferansen var keynoten Idalin "Abby" Bobé holdt. Kanskje fordi denne touchet litt mer alvorligere tema enn en vanligvis får servert på slike konferanser. 
+Et av foredragene som sitter sterkest igjen hos oss etter konferansen var keynoten Idalin "Abby" Bobé holdt. Kanskje fordi denne touchet litt mer alvorligere tema enn en vanligvis får servert på en teknologikonferanse. 
 
-Hun fortalte om sin bakgrunn, om oppveksten med minoritetsbakgrunn i fattige strøk i Philadelphia, og arbeidet hun gjør i dag. Bobé er, i tillegg til å være konsulent i ThoughtWorks, en selvutnevnt tech-aktivist. Hun fokuserer på hvordan teknologi kan brukes til å hjelpe folk som trenger det, både direkte og ved å samle oppmerksomhet rundt viktige saker.
+Hun fortalte om sin bakgrunn, om oppveksten med minoritetsbakgrunn i fattige strøk i Philadelphia, og om det arbeidet hun gjør i dag. Bobé er, i tillegg til å være konsulent i ThoughtWorks, en selvutnevnt tech-aktivist. Hun fokuserer på hvordan teknologi kan brukes til å hjelpe folk som trenger det, både direkte og ved å skape oppmerksomhet rundt viktige saker.
 
 <!--<a data-flickr-embed="true" href="https://www.flickr.com/photos/strangeloop2015/21360817283/" title="Idalin &quot;Abby&quot; Bobé"><img src="https://farm6.staticflickr.com/5805/21360817283_385ec4b7e3_k.jpg" alt="Idalin &quot;Abby&quot; Bobé"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>-->
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/strangeloop2015/21955796756/in/photostream/" title="Idalin &quot;Abby&quot; Bobé"><img src="https://farm1.staticflickr.com/665/21955796756_e36073ef39_k.jpg" alt="Idalin &quot;Abby&quot; Bobé"></a>
 
-Både Bobé og andre i ThoughtWorks har vært i Ferguson i forbindelse med urolighetene der, og hun malte et tydelig bilde av hvordan teknologi har bidratt—både på godt og ondt. Selv om teknologi har spilt en viktig rolle for aktivistene for å få delt det som skjer med resten av verden, og å få fokus på ting myndighetene forsøker å skjule, så har også teknologien blitt brukt imot dem.
+Både Bobé og andre i ThoughtWorks har vært i Ferguson i forbindelse med urolighetene der, og hun malte et tydelig bilde av hvordan teknologi har bidratt—både på godt og ondt. Selv om teknologi har spilt en viktig rolle for aktivistene for å få delt det som skjer med resten av verden, og for å få fokus på ting myndighetene forsøker å skjule, så har også teknologien blitt brukt imot dem.
 
 Som teknologer har vi mange muligheter, og det er viktig å tenke igjennom hvordan vi bruker dem.
 
@@ -26,7 +26,7 @@ Som teknologer har vi mange muligheter, og det er viktig å tenke igjennom hvord
 
 En annen keynote, av Morgan Marquis-Boire, fortsatte på sett og vis denne tråden. Mannen har lang fartstid innen sikkerhetsfeltet, og har sett mange trussler på nært hold.
 
-Han fortalte om mange av dem som velger å bruke teknologi til ondt, og om incentivene som driver dem. Vi fikk høre om alt fra dedikerte cyberangrepsteam til hacking-verktøy solgt som hyllevare, hvem som bruker slikt, og hva det typisk brukes til.
+Han fortalte om mange av dem som velger å bruke teknologi til ondt, og om insentivene som driver dem. Vi fikk høre om alt fra dedikerte cyberangrepsteam til hacking-verktøy solgt som hyllevare, hvem som bruker slikt, og hva det typisk brukes til.
 
 Vi fikk servert en rekke anekdoter fra ting han har opplevd i arbeidet sitt, ispedd en god dose humor underveis, men også med mange alvorlige poeng.
 
@@ -58,40 +58,39 @@ Det er mange morsomme poenger underveis, og vi er innom alt fra filmen Independe
 
 Det temaet det helt klart var flest foredrag om på årets StrangeLoop var distribuerte systemer. Her er det flere gode foredrag å velge mellom.
 
-Jon Moore startet fredagen med å presentere sin forskning på hvordan man kan oppnå både kausalitet mellom hendelser og synkroniserte klokker i distribuerte systemer. Løsning hans bygger på teorien om hybride lamport clocks, og heter 'Distributed Monotonic Clocks', hvor flokkteori **(TODO Steffen: insert eksempel på flokk-algoritme her som eksempel)** brukes til å synkronisere klokker i en cluster av maskiner uten at alle maskinene må kommunisere.
+Jon Moore startet fredagen med å presentere sin forskning på hvordan man kan oppnå både kausalitet mellom hendelser, samt synkroniserte klokker i distribuerte systemer. Løsning hans bygger på teorien om hybride lamport clocks, og heter 'Distributed Monotonic Clocks', hvor flokkteori (Flokkteori beskriver hvordan ett sett med individer koordinerer bevegelsene sine i en gruppe) brukes til å synkronisere klokker i en cluster av maskiner uten at alle maskinene må kommunisere med hverandre.
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/23165290@N00/13783370045/" title="flock of geese - Tidal Basin - Washington DC - 2014-04-10"><img src="https://c2.staticflickr.com/6/5033/13783370045_ef476dbb9d_k.jpg" alt="https://c2.staticflickr.com/6/5033/13783370045_ef476dbb9d_k.jpg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 > Video: ["How to Have your Causality and Wall Clocks, Too" by Jon Moore](https://youtu.be/YqNGbvFHoKM)
 
-Peter Bailis (insert pun om Game of Thrones her) forteller oss hvordan det å designe systemer for worste case scenario istedet for average case scenario i noen tilfeller kan gi bedre ytelse i avarge case scenario.
+Peter Bailis (insert pun om Game of Thrones her) forteller oss hvordan det å designe systemer for optimalisere worste case scenario istedet for average case scenario i noen tilfeller kan føre til bedre ytelse i avarge case scenario.
 
-<!-- Ville omskrevet quotet til noe på norsk. Bloggposten ser bedre ut når vi kun bruker block-quotes til videoer i denne delen av bloggposten. -->
-
-> "Your service's corner case may be its consumer's average case."
-
-Det å definere hva som er "normalt" definerer designet vårt. 
+Men hvorfor skal man bry seg om systemets worst case scenario? Worst case scenarios er jo edge cases som skjeldent vil intreffe. Men systemets corner case kan være brukerens average case. Det å definere hva som er "normalt" i systemet definerer designet vårt. 
 
 Design for worst case scenario når:
 
-<!-- Burde oversettes til norsk: -->
-
-* Corner cases are common
-* Environmental conditions are variable
-* When "normal" isn't as normal as you think
+* Corner cases er vanlige 
+* Miljøets tilstand er variabel 
+* Når "normalt" ikke er så normalt som man tror
 
 > Video: ["When "Worst" is Best (in Distributed Systems)" by Peter Bailis](https://youtu.be/ZGIAypUUwoQ)
 
-Det er ofte stort fokus på å bygge tilstandsløse tjenester som er lett å skalere. Men er tjenestene våre virkelig tilstandsløse? Catie McCaffrey forteller at oss tilstandsløse tjenester ofte flytter tilstanden ned til databasen. Men i noen tilfeller så kan det lønne seg å designe tjenester som tar vare på tilstanden i applikasjonen, noe de for eksempel har gjort i Uber.
+Det er ofte stort fokus på å bygge tilstandsløse tjenester som er lett å skalere. Men er tjenestene våre virkelig tilstandsløse? Catie McCaffrey forteller at oss tilstandsløse tjenester ofte flytter tilstanden ned til databasen. Men i noen tilfeller så kan det lønne seg å designe tjenester som tar vare på tilstanden i applikasjonen, noe de for eksempel har gjort i tjenesten Uber.
 
 > Video: ["Building Scalable Stateful Services" by Caitie McCaffrey](https://youtu.be/H0i_bXKwujQ)
 
 Mannen bak Kafka, Jay Kreps, gir en introduksjon til stream processing som ett tredje prosseseringsparadigme i tillegg til de klassiske paradigmene request/response og batch processing.
+Hvis stream processing er et ukjent begrep for deg så anbefaler vi å ta en titt på foredraget. 
 
 > Video: ["Apache Kafka and the Next 700 Stream Processing Systems" by Jay Kreps](https://youtu.be/9RMOc0SwRro)
 
-Hvis du er ny til stream processing så anbefaler vi å ta en titt på foredraget. Og hvis du ønsker å lære mer om streams i frontend-koden din så gir Pam Selle en introduksjon til hva streams er og hvordan man kan jobbe med streams i javascript.
+Og hvis du ønsker å lære mer om streams i frontend-koden din så gir Pam Selle en introduksjon til hva streams er og hvordan man kan jobbe med streams i javascript.
 
 > Video: ["Streams: The data structure we need" by Pam Selle](https://youtu.be/3iKkwzlch0o)  
 
+Dette var bare en smakebit over det som ble servert på Strangeloop i år. Vi har listet våre favoritter, men vi rakk ikke å se alle foredragene. En komplett liste over foredragene på
+[Youtube](https://www.youtube.com/playlist?list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R).
 
 ## TL;DR
 
