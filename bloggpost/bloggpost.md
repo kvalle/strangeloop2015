@@ -43,7 +43,7 @@ Et annet foredrag vi absolutt vil anbefale å se, i alle fall om du er interesse
 
 [*Foto: Michael Bridge*](https://www.flickr.com/photos/strangeloop2015/21794046360/)
 
-Foredraget starter med en kort historiefortelling om programmeringens spede begynnelse. Vi ser hvordan [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), [rekurive funksjoner](https://en.wikipedia.org/wiki/Computable_function) og [turingmaskiner](https://en.wikipedia.org/wiki/Turing_machine) alle dukket samtidig. Er matematikk noe som blir oppdaget, eller er det noe som blir oppfunnet av matematikere? Wadler argumenterer for det førstnevnte, og at det samme dermed gjelder lambda calculus.
+Foredraget starter med en kort historiefortelling om programmeringens spede begynnelse. Vi ser hvordan [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), [rekursive funksjoner](https://en.wikipedia.org/wiki/Computable_function) og [turingmaskiner](https://en.wikipedia.org/wiki/Turing_machine) alle dukket opp samtidig. Er matematikk noe som blir oppdaget, eller er det noe som blir oppfunnet av matematikere? Wadler argumenterer for det førstnevnte, og at det samme dermed gjelder lambda calculus.
 
 > "Most of you use programming languages that are invented. And you can tell, can't you? This is my invitation to you: to use programming languages that are discovered."
 
@@ -52,6 +52,9 @@ Han presenterer videre [Gentzens regler for deduksjon](https://no.wikipedia.org/
 > "Every good idea will be discovered twice. Once by a logician, and once by a computer scientist."
 
 Det er mange morsomme poenger underveis, og vi er innom alt fra filmen Independence Day til multiverses. Et fremragende foredrag, såfremt du ikke er redd for noen slides med litt logikk underveis.
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">so, this happened <a href="http://t.co/ju4wMSUily">pic.twitter.com/ju4wMSUily</a></p>&mdash; david crespo (@davidcrespo) <a href="https://twitter.com/davidcrespo/status/647865485162381312">September 26, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 > Video: ["Propositions as Types" by Philip Wadler](https://youtu.be/IOiZatlZtGU)
 
