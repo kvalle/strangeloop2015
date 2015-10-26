@@ -51,7 +51,7 @@ Han presenterer videre [Gentzens regler for deduksjon](https://no.wikipedia.org/
 
 > "Every good idea will be discovered twice. Once by a logician, and once by a computer scientist."
 
-Det er mange morsomme poenger underveis, og vi er innom alt fra filmen Independence Day til multiverses. Et fremragende foredrag, såfremt du ikke er redd for noen slides med litt logikk underveis.
+Det er mange morsomme poeng underveis, og vi er innom alt fra filmen Independence Day til multiverses. Et fremragende foredrag, såfremt du ikke er redd for noen slides med litt logikk.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">so, this happened <a href="http://t.co/ju4wMSUily">pic.twitter.com/ju4wMSUily</a></p>&mdash; david crespo (@davidcrespo) <a href="https://twitter.com/davidcrespo/status/647865485162381312">September 26, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -96,8 +96,7 @@ Og hvis du ønsker å lære mer om streams i frontend-koden din så gir Pam Sell
 
 > Video: ["Streams: The data structure we need" by Pam Selle](https://youtu.be/3iKkwzlch0o)  
 
-Dette var bare en smakebit over det som ble servert på Strangeloop i år. Vi har listet våre favoritter, men vi rakk ikke å se alle foredragene. En komplett liste over foredragene på
-[Youtube](https://www.youtube.com/playlist?list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R).
+Dette var bare en smakebit over det som ble servert på StrangeLoop i år. Vi har listet våre favoritter, men vi rakk ikke å se alle foredragene. En komplett liste over foredragene er [tilgjengelig på YouTube](https://www.youtube.com/playlist?list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R).
 
 ## TL;DR
 
